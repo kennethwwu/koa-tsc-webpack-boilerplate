@@ -1,2 +1,2 @@
-# kao-tsc-webpack-boilerplate
+# koa-tsc-webpack-boilerplate
 Koa API with typescript
