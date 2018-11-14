@@ -1,2 +1,2 @@
 # kao-tsc-webpack-boilerplate
-Kao API with typscript
+Kao API with typescript
