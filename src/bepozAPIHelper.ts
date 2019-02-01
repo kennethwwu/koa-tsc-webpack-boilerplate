@@ -16,8 +16,9 @@ axios.interceptors.response.use(function (response):any{
     }
     return response;
 }, function (error) {
+    // console.log(error);
     // Do something with response error
-    throw new Error(error);
+    throw 'Error please try again later.';
 });
 
 export const xmlBody = {
