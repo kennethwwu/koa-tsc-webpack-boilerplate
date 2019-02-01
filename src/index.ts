@@ -1,7 +1,7 @@
 import * as Koa from 'koa';
 import { Bepoz } from './bepozAPIHelper';
 import * as xml2js from 'xml-js';
-import { env } from './environment';
+import env from './environment';
 
 const app = new Koa();
 const con = Bepoz.connect(env.BEPOZ_API.URL, env.BEPOZ_API.PORT, env.BEPOZ_API.MAC);
